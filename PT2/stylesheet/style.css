@@ -7,7 +7,7 @@
 .header {
     display: flex;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: lightslategrey;
 }
 
@@ -74,4 +74,30 @@
 
 .active:hover{
     color: white !important;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.footer{
+    background-color:#674c2f;
+    color: #fff;
+    height: 50px;
+    padding: 75px;
+}
+
+.footer1{
+    font-size: 50px;
+    float: top;
+    color: bisque;
+}
+
+.footer2 li{
+    padding-bottom: 20px;
+    float: left;
+    padding-right: 20px;
+    list-style: circle;
 }
