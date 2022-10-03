@@ -26,3 +26,13 @@ button.addEventListener("click", function showinfo(){
         x.style.display = "none";
     }
 });
+
+const tombol = document.getElementById('tmb-info');
+tombol.addEventListener("click", function showinfo(){
+    const x = document.getElementById('info');
+    if(x.style.display == "none"){
+        x.style.display = "block";
+    }else{
+        x.style.display = "none";
+    }
+});

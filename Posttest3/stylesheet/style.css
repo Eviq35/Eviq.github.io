@@ -89,15 +89,16 @@
 }
 
 .footer1{
-    font-size: 50px;
+    font-size: 30px;
     float: top;
     color: bisque;
 }
 
 .footer2 li{
     padding-bottom: 20px;
-    float: left;
-    padding-right: 20px;
+    float: right;
+    /* padding-right: 20px; */
+    padding-left: 20px;
     list-style: circle;
 }
 
@@ -130,4 +131,26 @@ body.gelap {
 }
 .gelap .main button.gelapp {
     display: none;
+}
+
+.contents{
+    margin-top: 100px;
+    height: 500px;
+}
+.contents-item{
+    float: left;
+    margin-right: 40px;
+}
+.section-title{
+    border-bottom: 2px solid #dee7ec;
+    font-size: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.footer button{
+    padding: 10px;
+    border: none;
+    float: bottom;
+    border-radius: 10px;
 }
